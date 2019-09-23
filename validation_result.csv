@@ -1,4 +1,0 @@
-Oracle_Table,Oracle_Count,TD_Table,TD_Count,Match?
-a,10,a,10,match
-b,15,b,13,non-match
-c,10,c,13,match
