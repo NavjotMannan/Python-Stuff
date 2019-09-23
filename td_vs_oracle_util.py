@@ -14,7 +14,7 @@ I/P: i). Queries on DBC using search string common for all EDW tables
 	 ii). Oracle(SQL) query is ran on same tablenames in Oracle
 O/P: Excel showcasing the matching vs non-matching tables at a point in time.
 Plugin(In-progress): Email containing excel that can be scheduled at desired frequency
-Files Involved: ops_build_valid_td_maj_part.py, orcl_val_cnt.py, td_f.txt, validation_result.csv,   
+Files Involved: td_vs_oracle_util.py, orcl_val_cnt.py, td_f.txt, validation_result.csv,   
 """
 
 tbl_list = []
