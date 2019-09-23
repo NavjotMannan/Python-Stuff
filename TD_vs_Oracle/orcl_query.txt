@@ -1,0 +1,9 @@
+set head off 
+ set feedback off 
+ set linesize 10000 
+ set long 99999 
+ set pagesize 10000 
+ set serveroutput on size 100000 
+ WHENEVER SQLERROR EXIT SQL.SQLCODE;
+select count(*) from ******
+ EXIT SQL.SQLCODE;
